@@ -51,7 +51,7 @@ export default function SceneBackground({ activeScene }: SceneBackgroundProps) {
 
       {/* Main readability wash */}
       <div
-        className={`absolute inset-0 bg-gradient-to-b ${scene.overlayClass}`}
+        className={`absolute inset-0 bg-gradient-to-b ${scene.overlay}`}
       />
 
       {/* Soft cinematic vignette */}
@@ -60,7 +60,7 @@ export default function SceneBackground({ activeScene }: SceneBackgroundProps) {
       {/* Fine anime-film texture */}
       <div className="absolute inset-0 opacity-[0.07] mix-blend-soft-light bg-[radial-gradient(circle_at_20%_20%,#ffffff_0_1px,transparent_1px),radial-gradient(circle_at_80%_40%,#ffffff_0_1px,transparent_1px)] bg-[length:22px_22px]" />
 
-      <LightRays visible={scene.lightRays} />
+      <LightRays/>
       <MagicParticles />
       <MistOverlay />
     </div>
