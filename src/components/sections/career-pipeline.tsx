@@ -119,7 +119,7 @@ export function CareerPipeline() {
             <div className="flex flex-col gap-4 mb-8">
                 <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-white flex items-center gap-3">
                     <GitBranch className="text-[#1890ff]" size={32} />
-                    <span>career_pipeline</span>
+                    <span>work_term_pipeline</span>
                 </h2>
                 <p className="text-gray-400 font-mono text-sm">
                 </p>
@@ -138,7 +138,7 @@ export function CareerPipeline() {
                                 <stop offset="50%" stopColor={CONFIG.colors.success} />
                                 <stop offset="65%" stopColor={CONFIG.colors.running} />
                                 <stop offset="70%" stopColor={CONFIG.colors.success} />
-                                <stop offset="85%" stopColor={CONFIG.colors.running} />
+                                <stop offset="85%" stopColor={CONFIG.colors.success} />
                                 <stop offset="100%" stopColor={CONFIG.colors.white} />
                             </linearGradient>
                         </defs>

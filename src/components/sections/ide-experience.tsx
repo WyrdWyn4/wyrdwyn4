@@ -43,10 +43,10 @@ const getFileInfo = (index: number, companyName: string, role: string) => {
         return { name: "memorial-university.cpp", lang: "C++", icon: <Cpu size={14} className="text-blue-500" /> };
     }
     if (companyName.includes("Valiant")) {
-        return { name: "valiant-aerotech.lua", lang: "Lua", icon: <Plane size={14} className="text-purple-500" /> };
+        return { name: "valiant-aerotech.lua", lang: "Lua", icon: <Plane size={14} className="text-orange-500" /> };
     }
     if (companyName.includes("Memorial") && role.includes("Scientific")) {
-        return { name: "memorial-university.ipynb", lang: "Python", icon: <BookOpen size={14} className="text-orange-400" /> };
+        return { name: "memorial-university.ipynb", lang: "Python", icon: <BookOpen size={14} className="text-purple-400" /> };
     }
     if (companyName.includes("SiftMed")) {
         return { name: "siftmed.sql", lang: "SQL", icon: <FileJson size={14} className="text-teal-400" /> };

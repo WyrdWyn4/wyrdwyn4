@@ -21,7 +21,7 @@ export default function WorkIndex() {
 
                     <Link
                         href="/work/nasdaq-verafin/ai-and-automation-developer-intern"
-                        className="group relative bg-[#161b22] border border-white/10 rounded-2xl overflow-hidden hover:border-blue-500/50 transition-all hover:shadow-2xl hover:shadow-blue-900/10 flex flex-col md:flex-row"
+                        className="group relative bg-[#161b22] border border-white/10 rounded-2xl overflow-hidden hover:border-red-500/50 transition-all hover:shadow-2xl hover:shadow-blue-900/10 flex flex-col md:flex-row"
                     >
                         <div className="w-full md:w-2/5 relative h-48 md:h-auto overflow-hidden">
                             <Image
@@ -34,7 +34,7 @@ export default function WorkIndex() {
                         </div>
                         <div className="p-6 md:p-8 flex flex-col justify-center w-full md:w-3/5">
                             <div className="flex justify-between items-start mb-2">
-                                <h2 className="text-2xl font-bold text-white group-hover:text-blue-400 transition-colors">
+                                <h2 className="text-2xl font-bold text-white group-hover:text-red-400 transition-colors">
                                     AI & Automation Developer
                                 </h2>
                                 <span className="bg-red-500/10 text-red-400 text-xs font-mono px-2 py-1 rounded border border-red-500/20">
@@ -54,7 +54,7 @@ export default function WorkIndex() {
 
                     <Link
                         href="/work/valiant-aerotech/software-team-lead"
-                        className="group relative bg-[#161b22] border border-white/10 rounded-2xl overflow-hidden hover:border-purple-500/50 transition-all hover:shadow-2xl hover:shadow-purple-900/10 flex flex-col md:flex-row"
+                        className="group relative bg-[#161b22] border border-white/10 rounded-2xl overflow-hidden hover:border-orange-500/50 transition-all hover:shadow-2xl hover:shadow-orange-900/10 flex flex-col md:flex-row"
                     >
                         <div className="w-full md:w-2/5 relative h-48 md:h-auto overflow-hidden">
                             <Image
@@ -66,10 +66,10 @@ export default function WorkIndex() {
                         </div>
                         <div className="p-6 md:p-8 flex flex-col justify-center w-full md:w-3/5">
                             <div className="flex justify-between items-start mb-2">
-                                <h2 className="text-2xl font-bold text-white group-hover:text-purple-400 transition-colors">
+                                <h2 className="text-2xl font-bold text-white group-hover:text-orange-400 transition-colors">
                                     Software Team Lead
                                 </h2>
-                                <span className="bg-purple-500/10 text-purple-400 text-xs font-mono px-2 py-1 rounded border border-purple-500/20">
+                                <span className="bg-orange-500/10 text-orange-400 text-xs font-mono px-2 py-1 rounded border border-orange-500/20">
                                     Current
                                 </span>
                             </div>
@@ -113,7 +113,7 @@ export default function WorkIndex() {
 
                     <Link
                         href="/work/memorial-university-of-newfoundland/scientific-computing-research-assistant"
-                        className="group relative bg-[#161b22] border border-white/10 rounded-2xl overflow-hidden hover:border-orange-500/50 transition-all hover:shadow-2xl hover:shadow-orange-900/10 flex flex-col md:flex-row"
+                        className="group relative bg-[#161b22] border border-white/10 rounded-2xl overflow-hidden hover:border-purple-500/50 transition-all hover:shadow-2xl hover:shadow-purple-900/10 flex flex-col md:flex-row"
                     >
                         <div className="w-full md:w-2/5 relative h-48 md:h-auto overflow-hidden">
                             <Image
@@ -124,7 +124,7 @@ export default function WorkIndex() {
                             />
                         </div>
                         <div className="p-6 md:p-8 flex flex-col justify-center w-full md:w-3/5">
-                            <h2 className="text-2xl font-bold text-white group-hover:text-orange-400 transition-colors mb-2">
+                            <h2 className="text-2xl font-bold text-white group-hover:text-purple-400 transition-colors mb-2">
                                 Scientific Computing RA
                             </h2>
                             <h3 className="text-lg text-gray-400 mb-4">Memorial University</h3>

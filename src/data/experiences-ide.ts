@@ -47,7 +47,7 @@ export const ADDITIONAL_EXPERIENCE: ExperienceItem[] = [
     company: "Valiant Aerotech",
     role: "Software Team Lead",
     periods: ["Sep. 2024 - Present"],
-    color: "purple",
+    color: "orange",
     link: "/work/valiant-aerotech/software-team-lead",
     type: "additional"
   },
@@ -55,7 +55,7 @@ export const ADDITIONAL_EXPERIENCE: ExperienceItem[] = [
     company: "Memorial University of Newfoundland",
     role: "Scientific Computing Research Assistant",
     periods: ["Sep. 2024 - Feb. 2025"],
-    color: "orange",
+    color: "purple",
     link: "/work/memorial-university-of-newfoundland/scientific-computing-research-assistant",
     type: "additional"
   },

@@ -157,7 +157,7 @@ export function EducationTerminal() {
                   <a href="https://www.mun.ca/engineering/undergraduate/scholarships-and-awards/deans-list/deans-list---spring-2023/" className="text-white hover:text-blue-500">Dean's List (2022-2023)</a>
                   
                   <span className="text-green-400 font-bold">Resolution</span>
-                  <span className="text-white">GPA: 3.78</span>
+                  <span className="text-white">GPA: 3.80</span>
 
                   <span className="text-green-400 font-bold">CPU</span>
                   <span className="text-white">Neural Net (Coffee Overclocked)</span>

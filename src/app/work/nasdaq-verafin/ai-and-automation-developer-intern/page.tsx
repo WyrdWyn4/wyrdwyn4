@@ -8,7 +8,7 @@ export default function NasdaqAIPage() {
       
       {/* 1. Custom Hero Section */}
       <div className="relative w-full h-[50vh] min-h-[400px] border-b border-white/10 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/20 to-[#0d1117] z-0" />
+        <div className="absolute inset-0 bg-gradient-to-b from-red-900/20 to-[#0d1117] z-0" />
         
         <div className="absolute inset-0 z-0 opacity-30">
            <Image 
@@ -23,7 +23,7 @@ export default function NasdaqAIPage() {
         <div className="relative z-10 max-w-6xl mx-auto px-6 h-full flex flex-col justify-end pb-12">
             <Link 
               href="/work" 
-              className="inline-flex items-center gap-2 text-sm text-blue-400 hover:text-blue-300 mb-8 transition-colors"
+              className="inline-flex items-center gap-2 text-sm text-red-400 hover:text-red-300 mb-8 transition-colors"
             >
                 <ArrowLeft size={16} /> Back to Work
             </Link>
@@ -34,7 +34,7 @@ export default function NasdaqAIPage() {
                         <div className="bg-red-500/10 border border-red-500/20 text-red-400 px-3 py-1 rounded-full text-xs font-mono font-bold">
                             CONFIDENTIAL PROJECT
                         </div>
-                        <div className="bg-blue-500/10 border border-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-xs font-mono font-bold">
+                        <div className="bg-red-500/10 border border-red-500/20 text-red-400 px-3 py-1 rounded-full text-xs font-mono font-bold">
                             AI AGENTS
                         </div>
                     </div>
@@ -45,7 +45,7 @@ export default function NasdaqAIPage() {
                 </div>
                 
                 {/* Company Logo Custom Styling */}
-                <div className="w-20 h-20 bg-white rounded-xl p-2 shadow-xl shadow-blue-900/20">
+                <div className="w-20 h-20 bg-white rounded-xl p-2 shadow-xl shadow-red-900/20">
                     <div className="relative w-full h-full">
                          <Image 
                             src="/media/workterm/nasdaq-verafin/ai-and-automation-developer-intern/logo.png"
@@ -67,7 +67,7 @@ export default function NasdaqAIPage() {
             {/* Description */}
             <section className="prose prose-invert max-w-none">
                 <h3 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                    <Cpu className="text-blue-500" />
+                    <Cpu className="text-red-500" />
                     The Mission
                 </h3>
                 <p className="text-lg leading-relaxed text-gray-300">
@@ -91,8 +91,8 @@ export default function NasdaqAIPage() {
                     <pre className="font-mono text-sm leading-relaxed">
                         <code className="text-gray-300">
 <span className="text-orange-400">public class</span> <span className="text-yellow-300">FeedbackAgent</span> <span className="text-orange-400">extends</span> <span className="text-white">MoEService</span> {'{'}{'\n'}
-{'  '}<span className="text-orange-400">private final</span> <span className="text-blue-400">String</span> <span className="text-white">MODEL = </span> <span className="text-green-400">"WMK-4-Sher"</span>;{'\n\n'}
-{'  '}<span className="text-orange-400">public</span> <span className="text-blue-400">Feedback</span> <span className="text-yellow-300">generateReview</span><span className="text-white">(CodeContext ctx) {'{'}</span>{'\n'}
+{'  '}<span className="text-orange-400">private final</span> <span className="text-red-400">String</span> <span className="text-white">MODEL = </span> <span className="text-green-400">"WMK-4-Sher"</span>;{'\n\n'}
+{'  '}<span className="text-orange-400">public</span> <span className="text-red-400">Feedback</span> <span className="text-yellow-300">generateReview</span><span className="text-white">(CodeContext ctx) {'{'}</span>{'\n'}
 {'    '}<span className="text-gray-500">// Orchestrating specialized agents</span>{'\n'}
 {'    '}<span className="text-white">var riskScore = </span><span className="text-white">RiskAgent.evaluate(ctx);</span>{'\n'}
 {'    '}<span className="text-purple-400">if</span> <span className="text-white">(riskScore {'>'} 0.8) {'{'}</span>{'\n'}
@@ -155,7 +155,7 @@ export default function NasdaqAIPage() {
                 <h4 className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-4">Tech Stack</h4>
                 <div className="flex flex-wrap gap-2">
                     {["Python", "LangChain", "AWS Bedrock", "Docker", "Grafana", "Java"].map(skill => (
-                         <span key={skill} className="px-3 py-1 bg-blue-900/20 text-blue-300 border border-blue-500/20 rounded-md text-xs font-medium hover:bg-blue-900/30 transition-colors cursor-default">
+                         <span key={skill} className="px-3 py-1 bg-red-900/20 text-red-300 border border-red-500/20 rounded-md text-xs font-medium hover:bg-red-900/30 transition-colors cursor-default">
                             {skill}
                          </span>
                     ))}

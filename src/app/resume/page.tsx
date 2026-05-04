@@ -644,7 +644,7 @@ export default function ResumePage() {
                                             <img src="https://avatars.githubusercontent.com/u/66204156?v=4" className="w-5 h-5 rounded-full border border-[#30363d] mr-1 opacity-60" alt="Avatar" />
                                             <span className="font-bold text-[#7d8590] cursor-pointer">WyrdWyn4</span>
                                             <span className="text-[#7d8590]">deleted the</span>
-                                            <span className="bg-[#1f6feb]/10 text-[#58a6ff] px-1.5 py-0.5 rounded-[4px] font-mono text-xs opacity-75">media</span>
+                                            <span className="bg-[#1f6feb]/10 text-[#58a6ff] px-1.5 py-0.5 rounded-[4px] font-mono text-xs opacity-75">feature/khan-sahb</span>
                                             <span className="text-[#7d8590]">branch</span>
                                             <span className="text-[#7d8590] ml-1">3 months ago</span>
                                         </div>
@@ -789,7 +789,7 @@ export default function ResumePage() {
                                     <CodeLine num={10} content={<span className="text-[#c9d1d9]">## Education</span>} />
                                     <CodeLine num={11} content={<span className="text-[#c9d1d9]">- **Memorial University of Newfoundland**</span>} />
                                     <CodeLine num={12} content={<span className="text-[#c9d1d9]">- Bachelor of Engineering (Computer Engineering)</span>} />
-                                    <CodeLine num={13} content={<span className="text-[#c9d1d9]">- **GPA:** 3.78</span>} type="add" />
+                                    <CodeLine num={13} content={<span className="text-[#c9d1d9]">- **GPA:** 3.80</span>} type="add" />
                                     <CodeLine num={14} content={<span className="text-[#c9d1d9]">- **Status:** Academic Term 7 (4th Year) | Class of 2026</span>} type="add" />
                                     <CodeLine num={15} content={<span className="text-[#c9d1d9]">- **Awards:** Dean's List (2022-2023)</span>} type="add" />
                                 </FileDiff>

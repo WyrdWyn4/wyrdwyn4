@@ -72,10 +72,10 @@ export const NODES: NodeData[] = [
         link: "/work/nasdaq-verafin/datalake-developer-intern",
         logs: [
             "[AWS] Initializing EMR Cluster...",
-            "> STACK: Java, Scala, Spark, Serverless Computing",
-            "> DATA: Implemented database splitting logic in Scala",
-            "> QUALITY: Comprehensive validations via Jupyter",
-            "[SUCCESS] Data storage pipeline optimized."
+            "> STACK: Scala, Spark, AWS, Parquet, Gradle",
+            "> DATA: Built warehouse preparation and cross-domain split logic",
+            "> QUALITY: Fixture, pipeline, and notebook-based validation",
+            "[SUCCESS] Warehouse-ready datasets validated."
         ]
     },
     {
@@ -123,23 +123,23 @@ export const NODES: NodeData[] = [
         link: "/work/nasdaq-verafin/datalake-developer-intern",
         logs: [
             "[AWS] Triggering Step Functions...",
-            "> ROLE: Datalake Developer Intern",
-            "> TASK: Enhancing pipeline efficiency with AWS Services",
-            "> COLLAB: Developing analytics solutions with data analysts",
-            "[SUCCESS] Pipeline efficiency improved."
+            "> ROLE: Data Lake Developer Intern",
+            "> TASK: Schema mapping, object ID linking, and incremental prep",
+            "> DEBUG: Spark/EMR logs, CI output, and cloud execution history",
+            "[SUCCESS] Lakehouse preparation workflows stabilized."
         ]
     },
     {
         id: "nasdaq_ai", stage: 7, type: "serial",
         label: "AI Automation", title: "AI & Automation Developer", date: "Sep 2025 - Present",
-        status: "processing",
+        status: "success",
         link: "/work/nasdaq-verafin/ai-and-automation-developer-intern",
         logs: [
             "[PROD] Deploying Mixture-of-Experts Service...",
             "> ARCH: End-to-end architecture for LLM agents",
             "> INTEGRATION: Generating feedback within GitHub workflows",
             "> METRICS: Enabling SPACE & DORA dashboards in Grafana",
-            "[WAIT] Awaiting graduation trigger..."
+            "[SUCCESS] Tapestry in production..."
         ]
     },
     {

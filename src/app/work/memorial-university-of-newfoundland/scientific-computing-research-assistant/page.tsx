@@ -8,7 +8,7 @@ export default function ScientificComputingPage() {
       
       {/* Hero Section */}
       <div className="relative w-full h-[45vh] min-h-[350px] border-b border-white/10 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-orange-900/20 to-[#0d1117] z-0" />
+        <div className="absolute inset-0 bg-gradient-to-b from-purple-900/20 to-[#0d1117] z-0" />
         
         <div className="absolute inset-0 z-0 opacity-40">
            <Image 
@@ -22,7 +22,7 @@ export default function ScientificComputingPage() {
         <div className="relative z-10 max-w-6xl mx-auto px-6 h-full flex flex-col justify-end pb-12">
             <Link 
               href="/work" 
-              className="inline-flex items-center gap-2 text-sm text-orange-400 hover:text-orange-300 mb-8 transition-colors"
+              className="inline-flex items-center gap-2 text-sm text-purple-400 hover:text-purple-300 mb-8 transition-colors"
             >
                 <ArrowLeft size={16} /> Back to Work
             </Link>
@@ -35,7 +35,7 @@ export default function ScientificComputingPage() {
                     <h2 className="text-2xl text-gray-400 font-light">Memorial University</h2>
                 </div>
                 
-                <div className="w-20 h-20 bg-white rounded-xl p-2 shadow-xl shadow-orange-900/20">
+                <div className="w-20 h-20 bg-white rounded-xl p-2 shadow-xl shadow-purple-900/20">
                     <div className="relative w-full h-full">
                          <Image 
                             src="/media/additional/memorial-university-of-newfoundland/scientific-computing-research-assistant/logo.png"
@@ -56,7 +56,7 @@ export default function ScientificComputingPage() {
             
             <section className="prose prose-invert max-w-none">
                 <h3 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                    <FlaskConical className="text-orange-500" />
+                    <FlaskConical className="text-purple-500" />
                     Computational Chemistry
                 </h3>
                 <p className="text-lg leading-relaxed text-gray-300">
@@ -68,8 +68,8 @@ export default function ScientificComputingPage() {
              <section>
                 <h3 className="text-xl font-bold text-white mb-6">Research Highlights</h3>
                 <div className="grid gap-4 md:grid-cols-2">
-                    <div className="bg-[#161b22] p-6 rounded-lg border border-white/5 hover:border-orange-500/30 transition-colors">
-                        <h4 className="text-orange-400 font-bold mb-2 flex items-center gap-2">
+                    <div className="bg-[#161b22] p-6 rounded-lg border border-white/5 hover:border-purple-500/30 transition-colors">
+                        <h4 className="text-purple-400 font-bold mb-2 flex items-center gap-2">
                             <Code2 size={18} /> 
                             Generative Pipelines
                         </h4>
@@ -77,8 +77,8 @@ export default function ScientificComputingPage() {
                             Scripted automated mutation loops to generate thousands of valid molecular candidates from a single parent structure.
                         </p>
                     </div>
-                    <div className="bg-[#161b22] p-6 rounded-lg border border-white/5 hover:border-orange-500/30 transition-colors">
-                        <h4 className="text-orange-400 font-bold mb-2 flex items-center gap-2">
+                    <div className="bg-[#161b22] p-6 rounded-lg border border-white/5 hover:border-purple-500/30 transition-colors">
+                        <h4 className="text-purple-400 font-bold mb-2 flex items-center gap-2">
                             <Beaker size={18} /> 
                             Data Visualization
                         </h4>
@@ -96,7 +96,7 @@ export default function ScientificComputingPage() {
                 <h4 className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-4">Tech Stack</h4>
                 <div className="flex flex-wrap gap-2">
                     {["Python", "Cheminformatics", "Pandas", "Jupyter", "RDKit"].map(skill => (
-                         <span key={skill} className="px-3 py-1 bg-orange-900/20 text-orange-300 border border-orange-500/20 rounded-md text-xs font-medium">
+                         <span key={skill} className="px-3 py-1 bg-purple-900/20 text-purple-300 border border-purple-500/20 rounded-md text-xs font-medium">
                             {skill}
                          </span>
                     ))}
@@ -108,7 +108,7 @@ export default function ScientificComputingPage() {
                  <ul className="space-y-3">
                     {["Bonded molecular generation", "Automated mutation testing", "Simulation analytics"].map((item, i) => (
                         <li key={i} className="flex items-start gap-2 text-sm text-gray-300">
-                            <CheckCircle2 size={16} className="text-orange-500 shrink-0 mt-0.5" />
+                            <CheckCircle2 size={16} className="text-purple-500 shrink-0 mt-0.5" />
                             <span>{item}</span>
                         </li>
                     ))}
