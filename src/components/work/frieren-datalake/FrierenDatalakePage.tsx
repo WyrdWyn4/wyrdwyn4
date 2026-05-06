@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import BackgroundMusic from "./atmosphere/BackgroundMusic";
 import SceneBackground from "./atmosphere/SceneBackground";
 import HeroSection from "./sections/HeroSection";
 import OverviewSection from "./sections/OverviewSection";
