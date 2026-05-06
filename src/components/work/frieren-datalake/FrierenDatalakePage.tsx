@@ -21,7 +21,6 @@ export default function FrierenDatalakePage() {
     <main className="relative h-screen overflow-y-auto overflow-x-hidden bg-[#101423] text-[#f7efd7]">
       <SceneBackground activeScene={activeScene} />
       <HeroHomageNote />
-      <BackgroundMusic />
 
       <div className="relative z-10">
         <HeroSection onEnter={setActiveScene} />
